@@ -11,6 +11,7 @@
     <None Remove="DbContexts\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Services\" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -20,5 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.26" />
   </ItemGroup>
 </Project>
